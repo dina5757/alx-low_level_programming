@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * rev_string - Reverses a string
  * @s: Input string
@@ -7,7 +7,7 @@
  */
 void rev_string(char *s)
 {
-	vhar rev = s[0];
+	char rev = s[0];
 	int counter = 0;
 	int i;
 
